@@ -43,3 +43,4 @@ Dự án phân loại cảm xúc văn bản tiếng Việt sử dụng các mô 
   - Embedding: FastText, PhoBERT
   - Trực quan hóa: matplotlib, seaborn
 
+## Dự án được thực hiện bởi nhóm có 3 thành viên.
