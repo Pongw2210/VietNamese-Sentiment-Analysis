@@ -26,13 +26,13 @@ Dự án phân loại cảm xúc văn bản tiếng Việt sử dụng các mô 
   - **Huấn luyện mô hình**: Sử dụng tập train/test chia theo tỷ lệ tùy mỗi mô hình.
   - **Đánh giá mô hình**: Accuracy, Precision,Recall, F1-Score, Confusion Matrix.
 4. Kết quả mô hình
- Mô hình                  | Accuracy (ước lượng) | Ghi chú                         |
-|--------------------------|----------------------|----------------------------------|
-| Naive Bayes              | ~0.92                | Cơ bản, nhanh, dùng TF-IDF      |
-| Logistic Regression      | ~0.87                | Hiệu quả, baseline tốt          |
-| CNN + Bi-LSTM            | ~0.93                | Học sâu, xử lý ngữ cảnh tốt     |
-| MLP + FastText           | ~0.89                | Kết hợp embedding hiệu quả      |
-| PhoBERT + FastText       | ~0.96                | Mô hình tốt nhất (nếu có dùng)  |
+| Mô hình                 | Accuracy (ước lượng) | Ghi chú                                      |
+|------------------------|----------------------|----------------------------------------------|
+| Naive Bayes            | ~0.92                | Cơ bản, nhanh, sử dụng TF-IDF                |
+| Logistic Regression    | ~0.87                | Hiệu quả, baseline tốt                       |
+| CNN + Bi-LSTM          | ~0.93                | Học sâu, xử lý ngữ cảnh tốt                 |
+| MLP + FastText         | ~0.89                | Kết hợp embedding hiệu quả                   |
+| PhoBERT + FastText     | ~0.96                | Mô hình tốt nhất (nếu cấu hình đúng)         |
 
 5. Thư viện sử dụng
   - Xử lý dữ liệu: pandas, re, underthesea
