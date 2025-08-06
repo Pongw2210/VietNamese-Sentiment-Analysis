@@ -7,16 +7,16 @@ Dự án phân loại cảm xúc văn bản tiếng Việt sử dụng các mô 
 - Huấn luyện và so sánh hiệu quả giữa mô hình truyền thống (ML) và mô hình học sâu (DL)
   
 ## Mô tả dự án:
-1. Bộ dữ liệu
+### 1. Bộ dữ liệu
 - Phát hành trên nền tảng Hugging Face bởi nhóm nghiên cứu UIT NLP tại Trường Đại học Công nghệ Thông tin – Đại học Quốc gia TP. Hồ Chí Minh.
 - Bao gồm các bình luận tiếng Việt thực tế từ sinh viên, đã được gán nhãn cảm xúc theo ba nhóm chính: Tích cực, Trung lập, Tiêu cực.
-2. Các mô hình được sử dụng huấn luyện
+### 2. Các mô hình được sử dụng huấn luyện
   - Naive Bayes Model
   - Logistic Regression Model
   - CNN +Bi-LSTM Model
   - MLP + FastText Model
   - PhoBert + FastText Model
-3. Quy trình thực hiện
+### 3. Quy trình thực hiện
   - **Tiền xử lý dữ liệu**: Làm sạch văn bản, chuẩn hóa Unicode, loại bỏ ký tự đặc biệt, oversampling, v. v.
   - **Tách từ tiếng Việt**: Sử dụng thư viện `underthesea`.
   - **Vector hóa**:
@@ -25,7 +25,7 @@ Dự án phân loại cảm xúc văn bản tiếng Việt sử dụng các mô 
     - Embedding layer cho mô hình học sâu (CNN + Bi-LSTM)
   - **Huấn luyện mô hình**: Sử dụng tập train/test chia theo tỷ lệ tùy mỗi mô hình.
   - **Đánh giá mô hình**: Accuracy, Precision,Recall, F1-Score, Confusion Matrix.
-## 4. Kết quả các mô hình
+### 4. Kết quả các mô hình
 
 | Mô hình                 | Accuracy (ước lượng) | Ghi chú                                      |
 |------------------------|----------------------|----------------------------------------------|
@@ -36,7 +36,7 @@ Dự án phân loại cảm xúc văn bản tiếng Việt sử dụng các mô 
 | PhoBERT + FastText     | ~0.96                | Mô hình tốt nhất (nếu cấu hình đúng)         |
 
 
-5. Thư viện sử dụng
+### 5. Thư viện sử dụng
   - Xử lý dữ liệu: pandas, re, underthesea
   - Học máy: scikit-learn
   - Học sâu: Keras, TensorFlow
