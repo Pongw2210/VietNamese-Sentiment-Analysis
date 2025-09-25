@@ -47,6 +47,4 @@ Dự án phân loại cảm xúc văn bản tiếng Việt sử dụng các mô 
 Dự án được thực hiện bởi nhóm có 3 thành viên khóa học SIC và 1 thành viên khác.
 
 ## Tài liệu báo cáo
-[![Google Drive](https://img.shields.io/badge/Download%20Report-Google%20Drive-blue?logo=googledrive)](https://drive.google.com/your-report-link)
-
-`https://drive.google.com/drive/folders/1UTcIBk9B8qAUlJl3a69vgJ_iNVr1YOWh?usp=drive_link`
+[![Google Drive](https://drive.google.com/drive/folders/1UTcIBk9B8qAUlJl3a69vgJ_iNVr1YOWh?usp=drive_link)
